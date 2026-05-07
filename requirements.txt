@@ -1,0 +1,8 @@
+accelerate
+huggingface_hub
+numpy
+requests
+scikit-learn
+torch
+transformers
+wandb

@@ -1,0 +1,29 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ML
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+
+# Data
+data/
+datasets/
+
+# Outputs
+artifacts/
+models/
+mlruns/
+
+# Zip
+*.zip
+
+# Mac
+.DS_Store
