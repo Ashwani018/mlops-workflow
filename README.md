@@ -45,12 +45,12 @@ Update this table after running `scripts/eval.py`.
 
 | Metric | Score |
 |-----------|--------|
-| Accuracy | 0.XX |
-| F1 Score | 0.XX |
-| Eval Loss | 0.XX |
+| Accuracy | 0.60938 |
+| F1 Score | 0.60928 |
+| Eval Loss | 1.15211 |
 
-- Hugging Face model: https://huggingface.co/your-username/distilbert-goodreads-genres
-- W&B dashboard: https://wandb.ai/your-username/mlops-assignment2
+- Hugging Face model: https://huggingface.co/Nlp0187/distilbert-goodreads-genres
+- W&B dashboard: https://wandb.ai/g25ait2022-iit-jodhpur/mlops-assignment2/
 
 ## Outputs
 
