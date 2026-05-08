@@ -50,7 +50,7 @@ Update this table after running `scripts/eval.py`.
 | Eval Loss | 1.15211 |
 
 - Hugging Face model: https://huggingface.co/Nlp0187/distilbert-goodreads-genres
-- W&B dashboard: https://wandb.ai/g25ait2022-iit-jodhpur/mlops-assignment2/
+- W&B dashboard: https://wandb.ai/ashwinmmmec794-iit-jodhpur/mlops-assignment2?nw=nwuserashwinmmmec794
 
 ## Outputs
 

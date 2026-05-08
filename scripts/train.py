@@ -31,7 +31,8 @@ SEED = 42
 WANDB_PROJECT = "mlops-assignment2"
 WANDB_RUN_NAME = "distilbert-run-1"
 HF_REPO_ID = "Nlp0187/distilbert-goodreads-genres"
-
+os.environ["WANDB_LOG_MODEL"] = "false"
+os.environ["WANDB_DEFINE_METRIC"] = "true"   # lets wandb auto-detect axes
 
 def load_prepared_data(path: str | Path) -> dict:
     with Path(path).open("rb") as file:
@@ -58,6 +59,7 @@ def build_training_args():
         "greater_is_better": True,
         "report_to": "wandb",
         "run_name": WANDB_RUN_NAME,
+        "logging_first_step": True,
     }
 
     signature = inspect.signature(TrainingArguments.__init__)
