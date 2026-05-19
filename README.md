@@ -43,12 +43,14 @@ Then run the three scripts again.
 | F1 Score | 0.58294 |
 | Eval Loss | 2.36314 |
 
+
+- Kaggle Notebook https://www.kaggle.com/code/ashwanig20ait2022/mlops-assignment-2-fine-tuning-classification
 - Hugging Face model: https://huggingface.co/Nlp0187/distilbert-goodreads-genres
 - W&B dashboard: https://wandb.ai/ashwinmmmec794-iit-jodhpur/mlops-assignment2?nw=nwuserashwinmmmec794
 
 ## Outputs
 
-- Prepared data: `data/prepared_reviews.pkl`
+- Prepared data: `prepared_reviews.pkl`
 - Fine-tuned model: `distilbert-reviews-genres/`
 - Trainer logs: `results/trainer/`, `logs/`
 - Evaluation files: `results/eval_metrics.json`, `results/classification_report.json`, `results/predictions.csv`
