@@ -19,13 +19,9 @@ Do not commit API keys or tokens in this repository.
 
 ## Run
 
-The scripts use `data/genre_reviews_dict.pickle` by default, so the dataset does not need to be downloaded again.
+The scripts use `genre_reviews_dict.pickle` by default, so the dataset does not need to be downloaded again.
 
-```bash
-python3 scripts/data.py
-python3 scripts/train.py
-python3 scripts/eval.py
-```
+
 
 If `HF_TOKEN` is set, `train.py` will also push the trained model and tokenizer to Hugging Face Hub.
 
@@ -41,13 +37,11 @@ Then run the three scripts again.
 
 ## Results
 
-Update this table after running `scripts/eval.py`.
-
 | Metric | Score |
 |-----------|--------|
-| Accuracy | 0.60938 |
-| F1 Score | 0.60928 |
-| Eval Loss | 1.15211 |
+| Accuracy | 0.58562 |
+| F1 Score | 0.58294 |
+| Eval Loss | 2.36314 |
 
 - Hugging Face model: https://huggingface.co/Nlp0187/distilbert-goodreads-genres
 - W&B dashboard: https://wandb.ai/ashwinmmmec794-iit-jodhpur/mlops-assignment2?nw=nwuserashwinmmmec794
